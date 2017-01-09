@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define BASE 10	
 typedef struct date_s {
-						int m, y;
-}				date_t;
+			int m, y;
+} date_t;
 
 int dayPerMonth(int, int);
 int bisestile(int);
